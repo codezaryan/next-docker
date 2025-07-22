@@ -1,11 +1,11 @@
-import Image from "next/image";
+import Adduser from "./components/AddUser";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <>
-      <h1>
-        Welcome we are deploying our application using docker
-      </h1>
+      <Header/>
+      <Adduser/>
     </>
   );
 }
